@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/JDBC">
+	<Resource type="javax.sql.DataSource" name="jdbc/thogakade"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/thogakade"
+		username="root" password="321mysql" initialSize="10"
+		maxActive="100" maxIdle="50" minIdle="10" testOnBorrow="true"
+		validationQuery="SELECT 1" />
+</Context>
